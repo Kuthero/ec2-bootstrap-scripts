@@ -12,3 +12,5 @@ sudo systemctl start docker
 git clone --recursive https://github.com/Parisson/TimeSide.git
 cd TimeSide
 docker-compose pull
+
+echo "hello world at $(date +%m-%d-%y)" > ~/the-script-ran-at-boot.txt
