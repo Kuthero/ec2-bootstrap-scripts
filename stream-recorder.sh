@@ -1,10 +1,11 @@
 #!/bin/bash
 
 #<> Variables here:
-stream='https://player.iheart-us1.zettacloud.com/03767a3b-798d-047f-95dc-637046c2ca7b/d2e6ffc8-963a-27a5-3609-1bce6d2b145e/ksvr-00001'
+stream='http://iheart.streamguys1.com:8080/0106'
 timezone='America/New_York'
-segment_time='60' #seconds
-station='tiger-team-radio'
+segment_time='1800' #seconds
+station='EVT10-FL-ZC-VT-TEST-3' #no spaces
+#<>
 
 sudo timedatectl set-timezone $timezone
 sleep 3
